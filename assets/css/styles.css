@@ -1,0 +1,478 @@
+@font-face {
+    font-family: "Gothic Regular";
+    src: url(../fonts/Gothic_A1/GothicA1-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 10px 40px;
+ 
+   
+} 
+
+body{
+    font-family: "Gothic Regular" sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.video-banner{
+    position: relative;
+    height: 100vh;  
+}
+
+.video-banner video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.overlay h1{
+    color: #C7A480;
+}
+
+.btn{
+    border: 1px solid #C7A480;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 5%;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary{
+    padding: 20px; 
+}
+
+.btn-secondary{
+    padding: 10px;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+    
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#C7A480;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+.navbar ul li{
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.buy{
+    border: 1px solid #C7A480;
+    border-radius: 5%;
+    background-color: #C7A480;
+}
+
+
+span{
+    color: black;
+}
+
+.flex-logo img{
+    max-width: 100%;
+    width: 50%;
+    
+}
+
+.flex-hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+.bg-img{
+    background-image: url(../img/smoke-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.hero{
+    background-image: url(../img/awards-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C7A480;
+    border-radius: 5px;
+    padding: 20px;
+  
+}
+
+.hero img{
+    width: 20vh;
+    max-width: 100%;
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../img/races-bg.jpg);
+}
+
+.flex-container > div{
+    width: 33%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.flex-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+    
+
+.flex-container p{
+    color: white;
+}
+
+.title{
+    color: #C7A480;
+    margin-left:20%
+}
+
+.card-border{
+    border: 1px solid #C7A480;
+    border-radius: 5px;
+    width: 20%;
+
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+
+.card-container h2{
+    border-bottom: 1px solid #C7A480;
+    width: 50%;
+    text-align: center;
+    color: #C7A480;
+}
+
+.card-container p{
+    border-bottom: 1px solid #C7A480;
+    width: 70%;
+    color: #C7A480;
+}
+
+.card-container img{
+    width: 30%;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#acheter{
+    background-image: url(../img/buy-now-background.jpg);
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.flex-acheter{
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.color{
+    color: #C7A480;
+}
+
+.flex-img{
+    flex: 1;
+    padding: 20px;
+
+}
+
+.flex-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+#bg-img{
+    background-image: url(../img/smoke-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.info p{
+    color: #C7A480;
+}
+
+.cards{
+     flex: 1;
+    max-width: 32%;
+    aspect-ratio: 3 / 4; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    color: white;
+}
+
+
+.card h2 {
+    color: #C7A480;
+}
+
+.card p{
+    color: white;
+    text-align: left;
+    
+}
+
+.card a{
+    text-decoration: none;
+    color: #C7A480;
+}
+
+.card{
+    padding: 20px;
+    width: 70%;
+    height: 50%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #C7A480;
+    border-radius: 5px;
+    
+
+}
+
+.flex-content{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.img-update{
+    background-image: url(../img/news-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-test{
+    background-image: url(../img/news-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-patch{
+    background-image: url(../img/news-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#color{
+    color: #C7A480; 
+    text-align: left;
+}
+
+.flex-title{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 10%;
+    color: white;
+}
+
+.flex-title p{
+    color: #C7A480;
+}
+
+.fanart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.fanart img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.card-downloads{
+    border: 1px solid #C7A480;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 80%;
+    padding: 5%;    
+}
+
+.img-digital{
+    background-image: url(../img/cta-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.flex-downloads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.card-downloads h2 {
+    color: white;
+    margin-left: 10%;
+}
+
+.card-downloads p{
+    color: white;
+    width: 25%;
+    margin-left: 10%;
+}
+
+.btn-third{
+    padding: 8px;
+    margin-left: 10%;
+}
+
+#bg-footer{
+    background-image: url(../img/smoke-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+.card-footer {
+    flex: 1;
+    max-width: 40%;
+}
+
+
+.footer-nav {
+    flex: 1;
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.footer-nav > div {
+    flex: 1;
+    min-width: 120px; 
+}
+
+.footer-nav nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+.footer-nav nav ul li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+    color: #C7A480;  
+}
+
+
+.clr{
+    color: #C7A480;
+}
+
